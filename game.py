@@ -29,7 +29,7 @@ def playgame():
                 guess = input('Your guess: ')
 
     except ValueError:
-        print('please enter a integer')
+        print('please enter a integer, your count and number have been reset, do not break the rules or the rules will break you.')
         playgame()
 
 
